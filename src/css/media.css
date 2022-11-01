@@ -1,0 +1,18 @@
+@media (min-width: 760px) {
+    .container-bg {
+      position: initial;
+    }
+  
+    .container-bg .moon {
+      position: absolute;
+      top: 50px;
+      right: 400px;
+      z-index: 9000;
+    
+      cursor: pointer;
+    }
+
+    form .title-label {
+      font-size: var(--font-size-regular-14);
+    }
+  }

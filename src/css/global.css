@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    /* slate e gray */
+    --slate-900: rgb(15, 23, 42);
+    --slate-400: rgb(107, 124, 148);
+    --gray-100: rgb(225, 225, 230);
+    --gray-50: rgb(161, 161, 161);
+  
+    /* Blue */
+    --blue-600: rgb(37, 99, 235);
+    --blue-500: rgb(59, 130, 246);
+    --white-100: #d8d9de;
+  
+    /* Error and success */
+    --error-500: #dd3131;
+    --success-600: #65a30d;
+    /* Gap */
+    --gap: 8px;
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+  
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*  */
+  .wrapper {
+    max-width: 430px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /*  */
+  
+  /* buttons */
+  .form-input-button,
+  .form-input-button-google {
+    max-width: 400px;
+    width: 100%;
+    height: 48px;
+  
+    border: 2px solid transparent;
+    padding: 12px 16px;
+    cursor: pointer;
+    outline: none;
+  
+    background-color: var(--blue-600);
+    color: var(--gray-100);
+    border-radius: 4px;
+  
+    transition: 0.3s ease-in;
+  
+    margin-block: 32px;
+  }
+  
+  .form-input-button:hover,
+  .form-input-button-google {
+    background-color: var(--blue-500);
+  }

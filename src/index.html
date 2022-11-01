@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title> DocPay </title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main class="container-bg wrapper">
+
+    <section class="header-and-form">
+
+      <header class="header">
+
+        <img id="logo" src="./public/images/dd-logo.svg" alt="Logo DocPay">
+
+        <h1 class="names">DocPay</h1>
+
+        <p>Faça login e comece a usar.</p>
+
+      </header>
+
+      <form id="form" action="">
+
+        <label class="title-label"
+        for="email">Endereço de e-mail</label>
+
+        <div class="global-form-input">
+
+          <input 
+          title="E-mail obrigatório" 
+          type="email" 
+          name="email" 
+          id="email" 
+          placeholder="E-mail" 
+          required
+          autocomplete="off">
+          <img class="dd-at" src="./public/images/dd-at.svg" alt="Ícone de Arroba e-mail">
+
+          <span class="error"></span>
+
+        </div>
+
+        <label 
+        class="title-label" 
+        for="password">Informe o seu senha</label>
+
+        <div class="global-form-input">
+
+          <input 
+          title="Senha obrigatório" 
+          type="password" 
+          name="password" 
+          id="password-type"
+          placeholder="**************" 
+          required>
+
+          <img 
+          class="eyes" 
+          id="eyes" 
+          src="./public/images/dd-Eye.svg" 
+          alt="Icon eye">
+
+          <span class="error"></span>
+
+        </div>
+
+        <div class="checkbox-bg">
+
+          <input 
+          type="checkbox" 
+          name="checkbox" 
+          id="checkbox">
+
+          <label
+          class="checkbox" 
+          for="checkbox">Lembrar-me de mim</label>
+
+        </div>
+
+        <button 
+        class="form-input-button" 
+        id="handle-send-Log-in-Link-to-email" 
+        type="submit">
+
+          Entrar
+        </button>
+
+        <button  
+        title="Botão não está funcionando." 
+        class="form-input-button-google"
+        id="form-input-button-google" 
+        type="button">
+
+          <img 
+          class="dd-google" 
+          src="./public/images/dd-google.svg" 
+          alt="Logo Google">
+          Faça login no Google
+        </button>
+
+      </form>
+
+      <footer>
+
+        <p class="content-links">
+
+          <a href="#">Esqueceu sua senha</a>
+
+          <a href="#">Não possui conta? <span>Crie uma agora!</span></a>
+
+        </p>
+
+      </footer>
+
+    </section>
+
+  </main>
+
+
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>
