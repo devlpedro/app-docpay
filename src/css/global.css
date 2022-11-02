@@ -12,8 +12,9 @@
     --gray-50: rgb(161, 161, 161);
   
     /* Blue */
-    --blue-600: rgb(37, 99, 235);
-    --blue-500: rgb(59, 130, 246);
+    --blue-900: rgb(47, 79, 149);
+    --blue-700: rgb(58, 88, 154);
+    --blue-500: rgb(75, 119, 215);
     --white-100: #d8d9de;
   
     /* Error and success */
@@ -53,7 +54,7 @@
     cursor: pointer;
     outline: none;
   
-    background-color: var(--blue-600);
+    background-color: var(--blue-700);
     color: var(--gray-100);
     border-radius: 4px;
   

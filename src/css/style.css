@@ -83,7 +83,7 @@ form .global-form-input input {
 
   background-color: var(--gray-800);
   outline: none;
-  border: 2px solid var(--white-100);
+  border: 2px solid var(--blue-700);
   border-radius: 4px;
 
   color: var(--slate-900);
@@ -100,7 +100,7 @@ form .global-form-input input::placeholder {
 }
 
 form .global-form-input input:focus {
-  border: 2px solid var(--blue-600);
+  border: 2px solid var(--blue-500);
   cursor: auto;
 }
 
@@ -179,7 +179,7 @@ input[type="checkbox"] + label::before {
   height: 16px;
   left: 0;
   bottom: 0;
-  border: 2px solid var(--blue-600);
+  border: 2px solid var(--blue-700);
   border-radius: 4px;
   vertical-align: bottom;
 }
@@ -194,8 +194,8 @@ input[type="checkbox"]:checked + label::after {
 
   border-radius: 1px;
 
-  border-right: solid 3px var(--blue-600);
-  border-bottom: solid 3px var(--blue-600);
+  border-right: solid 3px var(--blue-700);
+  border-bottom: solid 3px var(--blue-700);
   transform: rotate(45deg);
 }
 
@@ -221,6 +221,6 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .container-bg footer p a span {
-  color: var(--blue-600);
+  color: var(--blue-900);
   text-decoration-line: underline;
 }
