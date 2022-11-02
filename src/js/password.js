@@ -16,12 +16,12 @@ function eyeClick() {
 
 function showPassword() {
     password.setAttribute('type', 'text');
-    icon.setAttribute('src', '../public/images/dd-EyeSlash.svg');
+    icon.setAttribute('src', './images/dd-EyeSlash.svg');
 }
 
 function hidePassword() {
     password.setAttribute('type', 'password');
-    icon.setAttribute('src', '../public/images/dd-Eye.svg');
+    icon.setAttribute('src', './images/dd-Eye.svg');
 }
 
 
