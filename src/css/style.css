@@ -133,7 +133,7 @@ form .form-input-button-google {
 
   margin-top: 0px;
 
-  background-color: var(--white-100);
+  background-color: white;
   color: var(--slate-900);
   box-shadow: rgba(0, 0, 0, 0.125) 0px 2px 8px;
 
