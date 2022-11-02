@@ -1,4 +1,4 @@
 import '../css/style.css';
-import '../js/auth.js';
-import '../js/password.js';
-import '../js/firebase.js';
+import './validateForm.js';
+import './passwordHider.js';
+import './signInGoogle.js';
