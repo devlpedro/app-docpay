@@ -5,21 +5,22 @@
 }
 
 :root {
-    /* slate e gray */
-    --slate-900: rgb(15, 23, 42);
-    --slate-400: rgb(107, 124, 148);
-    --gray-100: rgb(225, 225, 230);
-    --gray-50: rgb(161, 161, 161);
+    /* neutral */
+    --neutral-900: rgb(32, 32, 32);
+    --neutral-800: rgb(63, 63, 63);
+    --neutral-500: rgb(158, 158, 158);
+    --neutral-100: rgb(236, 236, 236);
+    --neutral-000: rgb(255, 255, 255);
   
     /* Blue */
-    --blue-900: rgb(47, 79, 149);
-    --blue-700: rgb(58, 88, 154);
-    --blue-500: rgb(75, 119, 215);
-    --white-100: #d8d9de;
+    --primary-900: #1E3A8A;
+    --secondary-700: #1D4ED8;
+    --hover-500: #3B82F6;
   
     /* Error and success */
-    --error-500: #dd3131;
     --success-600: #65a30d;
+    --error-500: #dd3131;
+
     /* Gap */
     --gap: 8px;
     font-size: 62.5%;
