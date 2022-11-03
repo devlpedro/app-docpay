@@ -1,7 +1,7 @@
 <h1 align="center">DocPay </h1>
 
 <p align="center">
-A DocPay é um projeto desenvolvido com o intuito de estudos <strong>Acessibilidade, javascript, estilos, semânticas</strong> | <a style="color: #C2410C" href="https://docpay.vercel.app/">Disponível agora.</a>
+A DocPay é um projeto desenvolvido com o intuito de estudos <strong>Acessibilidade, javascript, estilos, semânticas</strong> | <a style="color: #C2410C" href="https://app-docpay.vercel.app/">Disponível agora.</a>
 
 </p>
 
