@@ -81,7 +81,7 @@ form .global-form-input input {
 
   background-color: var(--neutral-100);
   outline: none;
-  border: 2px solid var(--primary-900);
+  border: 2px solid var(--secondary-700);
   border-radius: 4px;
 
   color: var(--neutral-900);
@@ -177,7 +177,7 @@ input[type="checkbox"] + label::before {
   height: 16px;
   left: 0;
   bottom: 0;
-  border: 2px solid var(--primary-900);
+  border: 2px solid var(--secondary-700);
   border-radius: 4px;
   vertical-align: bottom;
 }
@@ -192,8 +192,8 @@ input[type="checkbox"]:checked + label::after {
 
   border-radius: 1px;
 
-  border-right: solid 3px var(--primary-900);
-  border-bottom: solid 3px var(--primary-900);
+  border-right: solid 3px var(--secondary-700);
+  border-bottom: solid 3px var(--secondary-700);
   transform: rotate(45deg);
 }
 
@@ -219,6 +219,6 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .container-bg footer p a span {
-  color: var(--primary-900);
+  color: var(--secondary-700);
   text-decoration-line: underline;
 }
