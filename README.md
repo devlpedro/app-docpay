@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-<p id="layout">Você pode visualizar o layout do projeto através <a style="color: #C2410C" href="https://www.figma.com/file/gzKU7KFDUwcgFFOtJmhRBe/Design-System?node-id=86%3A152">DESSE LINK</a>. É necessário ter conta no <a style="color: #C2410C" href="https://figma.com">Figma</a></p>
+<p id="layout">Você pode visualizar o layout do projeto através <a style="color: #C2410C" href="https://www.figma.com/file/gzKU7KFDUwcgFFOtJmhRBe/Docpay?node-id=79%3A203">DESSE LINK</a>. É necessário ter conta no <a style="color: #C2410C" href="https://figma.com">Figma</a></p>
 
 ## 📝 Licença
 
