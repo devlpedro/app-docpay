@@ -177,7 +177,7 @@ input[type="checkbox"] + label::before {
   height: 16px;
   left: 0;
   bottom: 0;
-  border: 2px solid var(--secondary-700);
+  border: 2px solid var(--primary-900);
   border-radius: 4px;
   vertical-align: bottom;
 }
@@ -192,8 +192,8 @@ input[type="checkbox"]:checked + label::after {
 
   border-radius: 1px;
 
-  border-right: solid 3px var(--secondary-700);
-  border-bottom: solid 3px var(--secondary-700);
+  border-right: solid 3px var(--primary-900);
+  border-bottom: solid 3px var(--primary-900);
   transform: rotate(45deg);
 }
 
