@@ -23,77 +23,51 @@
     <section class="header-and-form">
 
       <header class="header">
-
-        <img id="logo" src="./public/images/dd-logo.svg" alt="Logo DocPay">
-
-        <h1 class="names">DocPay</h1>
+        <h1 class="names">Telo</h1>
 
         <p>Faça login e comece a usar.</p>
 
       </header>
 
       <form id="form" action="">
-
-        <label class="title-label"
-        for="email">Endereço de e-mail</label>
+        <label class="title-label" for="user">Nome</label>
 
         <div class="global-form-input">
 
-          <input 
-          title="E-mail obrigatório" 
-          type="email" 
-          name="email" 
-          id="email" 
-          placeholder="E-mail" 
-          required
-          autocomplete="off">
+          <input type="user" name="user" id="user" required autocomplete="off">
+          <img class="dd-at" src="./public/images/person.svg" alt="Ícone de usuário">
+
+          <span class="error"></span>
+
+        </div>
+
+        <label class="title-label" for="email">E-mail</label>
+
+        <div class="global-form-input">
+
+          <input title="E-mail obrigatório" type="email" name="email" id="email" required
+            autocomplete="off">
           <img class="dd-at" src="./public/images/dd-at.svg" alt="Ícone de Arroba e-mail">
 
           <span class="error"></span>
 
         </div>
-
-        <label 
-        class="title-label" 
-        for="password">Informe o seu senha</label>
+        <div class="forgot-password">
+          <label class="title-label" for="password">Senha</label>
+          <a href="#">Esqueceu sua senha</a>
+        </div>
 
         <div class="global-form-input">
 
-          <input 
-          title="Senha obrigatório" 
-          type="password" 
-          name="password" 
-          id="password-type"
-          placeholder="**************" 
-          required>
+          <input title="Senha obrigatório" type="password" name="password" id="password-type" required>
 
-          <img 
-          class="eyes" 
-          id="eyes" 
-          src="./public/images/dd-Eye.svg" 
-          alt="Icon eye">
+          <img class="eyes" id="eyes" src="./public/images/dd-Eye.svg" alt="Icon eye">
 
           <span class="error"></span>
 
         </div>
 
-        <div class="checkbox-bg">
-
-          <input 
-          type="checkbox" 
-          name="checkbox" 
-          id="checkbox">
-
-          <label
-          class="checkbox" 
-          for="checkbox">Lembrar-me de mim</label>
-
-        </div>
-
-        <button 
-        class="form-input-button" 
-        id="handle-send-from-user-sign-in-to-email" 
-        type="submit">
+        <button class="form-input-button" id="handle-send-from-user-sign-in-to-email" type="submit">
 
           Entrar
         </button>
@@ -103,34 +77,13 @@
           <span>or</span>
           <div id="lines-right"></div>
         </div>
-
-        <button  
-        title="Botão não está funcionando." 
-        class="form-input-button-google"
-        id="form-input-button-google" 
-        type="button">
-
-          <img 
-          class="dd-google" 
-          src="./public/images/dd-google.svg" 
-          alt="Logo Google">
-          Faça login no Google
-        </button>
-
       </form>
 
-      <footer>
+      <button class="input-button-google" id="input-button-google" type="button">
 
-        <p class="content-links">
-
-          <a href="#">Esqueceu sua senha</a>
-
-          <a href="#">Não possui conta? <span>Crie uma agora!</span></a>
-
-        </p>
-
-      </footer>
-
+        <img class="dd-google" src="./public/images/dd-google.svg" alt="Logo Google">
+        Faça login no Google
+      </button>
     </section>
 
   </main>
