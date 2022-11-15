@@ -2,7 +2,7 @@
 @import "./media.css";
 
 body {
-  background-color: var(--neutral-100);
+  background-color: var(--neutral-900);
 }
 
 .container-bg {
@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  padding-top: 32px;
+  padding-top: 64px;
 }
 
 .container-bg .header h1 {
@@ -30,9 +30,9 @@ body {
 
   text-align: center;
 
-  color: var(--neutral-900);
+  color: var(--neutral-000);
 
-  padding: 12px;
+  margin-bottom: 8px;
 }
 
 .container-bg .header p {
@@ -42,7 +42,7 @@ body {
 
   text-align: center;
 
-  color: var(--neutral-800);
+  color: var(--neutral-500);
 }
 
 /*============= Formulário =======================================*/
@@ -52,23 +52,37 @@ form {
   width: 90%;
   margin: 0 auto;
 
-  margin-top: 42px;
+  margin-top: 32px;
 }
 
 form .title-label {
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 19px;
-  color: var(--neutral-900);
+  color: var(--neutral-000);
+}
+.forgot-password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgot-password a {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 19px;
+  background-image: linear-gradient(90deg, #36d1dc 0%, #5b86e5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 form .global-form-input {
   width: 100%;
   height: 48px;
 
-  background-color: var(--neutral-100);
-
-  margin-bottom: 32px;
+  background-color: var(--neutral-900);
+  margin-bottom: 24px;
   margin-top: 8px;
   position: relative;
 
@@ -79,12 +93,14 @@ form .global-form-input input {
   width: 100%;
   height: 100%;
 
-  background-color: var(--neutral-100);
+  background-color: var(--neutral-900);
   outline: none;
-  border: 2px solid var(--secondary-700);
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #36d1dc 0%, #5b86e5 100%);
+  border-image-slice: 1;
   border-radius: 4px;
 
-  color: var(--neutral-900);
+  color: var(--neutral-000);
   padding-left: 16px;
 
   cursor: pointer;
@@ -100,6 +116,11 @@ form .global-form-input input::placeholder {
 form .global-form-input input:focus {
   border: 2px solid var(--secondary-700);
   cursor: auto;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #5b86e5 0%, #36d1dc 100%);
+  border-image-slice: 1;
+  transition: all 0.5s ease-in-out;
 }
 
 form .global-form-input span.error {
@@ -123,102 +144,37 @@ form .form-input-button {
   margin-bottom: 12px;
 }
 
-form .form-input-button-google {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap);
-
-  margin-top: 0px;
-
-  background-color: var(--neutral-000);
-  color: var(--neutral-900);
-  box-shadow: 0px 0px 5px rgba(56, 56, 56, 0.12);
-
-  font-size: 1.4rem;
-}
-
-form .form-input-button-google .dd-google {
-  max-width: 35px;
-  width: 100%;
-  height: 35px;
-}
-
-/*============= checkbox =======================================*/
-
-.checkbox-bg {
-  display: flex;
-  align-items: center;
-  gap: var(--gap);
-}
-
-.checkbox-bg .checkbox {
-  font-size: 1.2rem;
-  color: var(--neutral-900);
-  user-select: none;
-}
-
-input[type="checkbox"] {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-}
-
-input[type="checkbox"] + label {
-  position: relative;
-  cursor: pointer;
-  padding-left: 30px;
-}
-
-input[type="checkbox"] + label::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  left: 0;
-  bottom: 0;
-  border: 2px solid var(--secondary-700);
-  border-radius: 4px;
-  vertical-align: bottom;
-}
-
-input[type="checkbox"]:checked + label::after {
-  content: "";
-  position: absolute;
-  left: 3.7%;
-  bottom: 26%;
-  width: 5px;
-  height: 10px;
-
-  border-radius: 1px;
-
-  border-right: solid 3px var(--secondary-700);
-  border-bottom: solid 3px var(--secondary-700);
-  transform: rotate(45deg);
-}
-
 /*============= Footer =======================================*/
 
-.container-bg footer p {
+.input-button-google {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: var(--gap);
+
+  max-width: 400px;
+  width: 90%;
+  height: 48px;
+
+  margin: 0 auto;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  
+
+  background: transparent;
+  color: var(--neutral-000);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #5b86e5 0%, #36d1dc 100%);
+  border-image-slice: 1;
+
+  transition: all 1s ease-in-out;
+
+  margin-top: 32px;
 }
 
-.container-bg footer p a {
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 17px;
-
-  text-decoration-line: underline;
-
-  color: var(--neutral-900);
-
-  margin-bottom: 12px;
-}
-
-.container-bg footer p a span {
-  color: var(--secondary-700);
-  text-decoration-line: underline;
+.input-button-google .dd-google {
+  max-width: 28px;
+  width: 100%;
 }
