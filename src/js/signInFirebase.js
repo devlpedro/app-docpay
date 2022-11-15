@@ -13,7 +13,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 
-const buttonGoogle = document.querySelector('.form-input-button-google');
+const buttonGoogle = document.querySelector('.input-button-google');
 buttonGoogle.addEventListener('click', handleGoogleSignIn);
 
 
